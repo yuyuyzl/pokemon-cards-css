@@ -23,7 +23,7 @@
   // context/environment props
   export let showcase = false;
 
-  const server = import.meta.env.VITE_CDN;
+  const server = 'https://poke-holo.b-cdn.net';
   /**
    * Shiny Vault Card (starts with sv)
    */
