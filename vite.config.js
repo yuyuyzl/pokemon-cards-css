@@ -19,7 +19,14 @@ export default defineConfig(({mode}) => {
   };
 
   return {
-    plugins: [svelte(), htmlPlugin()],
+    plugins: [htmlPlugin()],
+    build: {
+      rollupOptions: {
+        input: {
+          main: "./standalone.html"
+        }
+      }
+    },
     server: {
       watch: {
         usePolling: false

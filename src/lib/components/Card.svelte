@@ -32,7 +32,6 @@ const clamp = (value, min = 0, max = 100 ) => {
 const adjust = (value, fromMin, fromMax, toMin, toMax) => {
 	return round(toMin + (toMax - toMin) * (value - fromMin) / (fromMax - fromMin));
 };
-debugger;
   // data / pokemon props
   export let id = "";
   export let name = "";
