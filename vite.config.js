@@ -19,7 +19,7 @@ export default defineConfig(({mode}) => {
   };
 
   return {
-    plugins: [htmlPlugin()],
+    // plugins: [htmlPlugin()],
     build: {
       rollupOptions: {
         input: {
